@@ -225,7 +225,7 @@ void loop() {
 #ifdef MATLAB_SERIAL_READ
   Serial.print(timer / 1000000.0);   Serial.print("\t");
   Serial.print(set_point);    Serial.print("\t");
-  Serial.print(filt_vel);    Serial.print("\t");
+  Serial.print(sensor);    Serial.print("\t");
   Serial.print(vc);
   Serial.print("\n");
 #endif
